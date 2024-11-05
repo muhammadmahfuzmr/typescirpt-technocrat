@@ -1,7 +1,7 @@
 // Reference Type --> Object
 
 const user: {
-   readonly company:string; //type --> literal types
+    readonly company:string; //type --> literal types
     firstName: string;
     middleName?: string; // optional
     lastName: string;
