@@ -13,7 +13,7 @@
 
     // unknown typeof
 
-    const getSpeedInMetersPerSecond = (value: unknown): unknown => {
+    const getSpeedInMetersPerSecond = (value: unknown) => {
         if (typeof value === 'number') {
             const convertedSpeed = (value * 1000) / 3600;
             console.log(`The Speed is ${convertedSpeed} ms^-1`)
