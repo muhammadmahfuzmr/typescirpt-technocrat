@@ -25,7 +25,7 @@ let w : null = null;
 // Array
 
 let friends : string[] = ['rachel', 'monica'];
-let student: string[]  = ['Mahfuz', "Jawad", 'Bilal']
+let students: string[]  = ['Mahfuz', "Jawad", 'Bilal']
 
 let eligibleRollList : number[] = [1, 52,3]
 let marks : number[] = [12, 21, 36, 89];
