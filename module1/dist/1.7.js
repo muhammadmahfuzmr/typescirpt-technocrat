@@ -4,7 +4,7 @@
     const friendList1 = ['mahfuz', 'bilal', 'jawad'];
     const friendList2 = ['nazmul', 'kawser'];
     friendList1.push(...friendList2);
-    console.log(friendList1);
+    //console.log(friendList1);
     const mentors1 = {
         lavel1: 'jhankar vai',
         conceptual: 'rahat vai'
@@ -14,10 +14,10 @@
         redux: 'mir vai'
     };
     const mentorsList = Object.assign(Object.assign({}, mentors1), mentors2);
-    console.log(mentorsList);
+    //console.log(mentorsList)
     // rest operator
     const getFriends = (...friends) => {
-        friends.map(friends => console.log(friends));
+        friends.forEach((fr) => console.log(`Hi ${fr}`));
     };
-    getFriends('mahfuz', 'jawad', 'bilal');
+    getFriends("Rahim", "Karim", "Jawad", "Devid", "John");
 }
