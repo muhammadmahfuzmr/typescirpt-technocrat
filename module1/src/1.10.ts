@@ -22,6 +22,13 @@
         contactNo: '0152453222'
 
     }
+
+    const user20: User = {
+        name: "Mahfuz",
+        age:22,
+        gender: "Male",
+        bloodGroup: "O+",
+      };
     // intersection
     type FontEndDeveloper = {
         skills: string[];

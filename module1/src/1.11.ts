@@ -12,9 +12,9 @@
     console.log({ isAdult })
     // nullish coalescing operator
     // nullish coalescing operator have to use ,if value is null or undefined and need to make decision.Othewise they retrun variable value.
-    const isAuthentication = 5;
+    const isAuthentication = null;
     const result1 = isAuthentication ?? 'Guest'
-    console.log(result1)
+    console.log({result1})
 
     // Optional chaining ,optional type
     type User = {
@@ -36,6 +36,6 @@
             dist: 'Habiganj'
         }
     }
-    const roadNo = user?.address?.road ?? 'Road Number is not available'
+    const roadNo = user?.address?.road 
     console.log(roadNo)
 }
