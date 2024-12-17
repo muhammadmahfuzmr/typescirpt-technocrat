@@ -37,15 +37,15 @@
 
     // Record
 
-    type MyObj = {
-        a: string;
-        b: string;
-    }
-    const myObj1: MyObj = {
-        a: "aa",
-        b: "bb",
-        c: "cc"
-    }
+    // type MyObj = {
+    //     a: string;
+    //     b: string;
+    // }
+    // const myObj1: MyObj = {
+    //     a: "aa",
+    //     b: "bb",
+    //     //c: "cc"
+    // }
     type MyObjRecord = Record<string, string>
     const myObj2: MyObjRecord = {
         a: "aa",
